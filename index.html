@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Raju Vannepally | Java Full Stack Developer</title>
+    <meta name="description" content="Java full stack developer portfolio: projects, skills, resume, contact." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a class="logo" href="#home">Raju Vannepally</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Java Full Stack Developer</h1>
+                <p>Building robust backends with Java and intuitive frontends with React & modern web tech.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-aside">
+                <img src="assets/img/vannepally_raju_resum.jpg" alt="Portrait of Vannepally" class="avatar" />
+                <ul class="quick-stats">
+                    <li><strong>B.Tech CSE</strong> • Java Full Stack Certificate</li>
+                    <li><strong>Location:</strong>Hyderabad, Telangana</li>
+                    <li><strong>Open to:</strong> Full-time & Internships</li>
+                </ul>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="projects" class="section">
+            <div class="section-head">
+                <h2>Projects</h2>
+                <p>End-to-end implementations demonstrating Java, Spring Boot, React, SQL, and deployment.</p>
+            </div>
+            <div id="projectGrid" class="grid"></div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-head">
+                <h2>Skills</h2>
+                <p>Core technologies and tools I use to deliver production-grade software.</p>
+            </div>
+            <div class="skills">
+                <div class="skill-group">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Java • Spring Boot • REST APIs</li>
+                        <li>JWT Auth • Maven/Gradle • JUnit</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML • CSS • JavaScript • React</li>
+                        <li>Bootstrap • Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Database & DevOps</h3>
+                    <ul>
+                        <li>SQL • PostgreSQL/MySQL</li>
+                        <li>Git • GitHub Actions • CI/CD</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Other</h3>
+                    <ul>
+                        <li>Python • C • Problem-Solving</li>
+                        <li>Communication • Presentation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="section-head">
+                <h2>Experience & highlights</h2>
+                <p>Academic and self-driven work focused on impact and clarity.</p>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-card">
+                        <h3>Academic projects</h3>
+                        <p>Hands-on with deep learning for drug side effects, genetic disease prediction, and blockchain
+                            security. Focused on reproducibility, clean code, and rigorous reporting.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-card">
+                        <h3>Java full stack certification</h3>
+                        <p>Built RESTful APIs, integrated React frontends, implemented authentication/authorization, and
+                            deployed apps on cloud/GitHub Pages.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="resume" class="section">
+            <div class="section-head">
+                <h2>Resume</h2>
+                <p>Download a concise resume tailored for ATS.</p>
+            </div>
+            <div class="resume-card">
+                <a class="btn btn-primary" href="assets/Vannepally_Resume.pdf" download>Download PDF</a>
+                <a class="btn btn-outline" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="btn btn-outline" href="https://github.com/your-github" target="_blank"
+                    rel="noopener">GitHub</a>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section-head">
+                <h2>Contact</h2>
+                <p>Let’s discuss how I can contribute to your team.</p>
+            </div>
+            <form id="contactForm" class="card" aria-label="Contact form">
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your name" required />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="name@example.com" required />
+                </div>
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me about the role..."
+                        required></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                    <p class="form-status" role="status" aria-live="polite"></p>
+                </div>
+            </form>
+            <div class="contact-info">
+                <p><strong>Email:</strong> vannepally@example.com</p>
+                <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="year"></span> Vannepally • Built with Java, Spring Boot, React, and love for clean code.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
